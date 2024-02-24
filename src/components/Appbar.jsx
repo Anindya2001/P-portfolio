@@ -5,13 +5,12 @@ export const Appbar = () => {
     <div>
       <div className="flex justify-between items-center p-1 space-x-2 bg-black pr-20">
         <div>
-          <ButtonNav label={"Home"} />
+          <ButtonNav label={"Home"} to={'/'} />
         </div>
         <div className="flex">
-          <ButtonNav label={"About"} />
-          <ButtonNav label={"Projects"} />
-          <ButtonNav label={"Resume"} />
-          <ButtonNav label={"Contact"} />
+          <ButtonNav label={"About"} to={"/aboutme"} />
+          <ButtonNav label={"Projects"} to={"/projects"} />
+          <ButtonNav label={"Resume"} to={"/resume"} />
         </div>
       </div>
     </div>

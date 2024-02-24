@@ -14,7 +14,6 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contactme" element={<ContactMe />} />
         </Routes>
       </BrowserRouter>
     </>
@@ -22,3 +21,9 @@ function App() {
 }
 
 export default App;
+
+//remaining
+//1>> navigation in appbar.jsx  ==>> done
+//2>> resume viewing in resume.jsx
+//3>> Real project props
+//4>> responsiveness
