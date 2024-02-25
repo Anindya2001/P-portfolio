@@ -26,7 +26,7 @@ export const Resume = () => {
   };
 
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 h-full">
       <Appbar />
       <div className="flex justify-center item-center m-2 p-2">
         <img
@@ -38,7 +38,7 @@ export const Resume = () => {
       <div className="flex justify-center item-center">
         <button
           onClick={handleClick}
-          className="border border-black text-white bg-black rounded-lg text-lg p-2 m-1"
+          className="border border-black text-white bg-black rounded-lg text-lg p-2 m-2"
         >
           Download Resumes
         </button>

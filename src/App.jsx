@@ -3,7 +3,7 @@ import { Home } from "./pages/Home";
 import { AboutMe } from "./pages/AboutMe";
 import { Projects } from "./pages/Projects";
 import { Resume } from "./pages/Resume";
-import { ContactMe } from "./pages/Contact";
+import { DetailedView } from "./pages/DetailedView";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/detailed-view/:pid" element={<DetailedView />} />
         </Routes>
       </BrowserRouter>
     </>

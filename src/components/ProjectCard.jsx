@@ -1,21 +1,22 @@
-export const PorjectCard = ({ name, gUrl, dUrl, desc }) => {
+export const PorjectCard = ({ iUrl, name, desc, pid, ShowMore }) => {
   return (
-    <div className="flex border-1 bg-black text-white m-2 p-2 rounded-md h-full w-1/4 shadow-2xl border-black">
+    <div className="flex border-1  m-10 rounded-md h shadow-xl border-black w-80 bg-white">
       <div>
-        <div className="text-2xl">{name}</div>
-        <div className="text-lg">{desc}</div>
-        <div className="flex">
-          <p>Deploy Link: </p>
-          <a href={dUrl} target="_blank" rel="noopener noreferrer">
-            {dUrl}
-          </a>
+        <img
+          src={iUrl}
+          alt="project image"
+          className="h-56 w-full object-cover"
+        />
+        <div className="text-2xl m-2">{name}</div>
+        <div className="text-lg m-2 flex-wrap">
+          <p>{desc}</p>
         </div>
-        <div>
-          <p>Github Link: </p>
-          <a href={gUrl} target="_blank" rel="noopener noreferrer">
-            {gUrl}
-          </a>
-        </div>
+        <button
+          className="border bg-black text-white rounded-lg py-1 px-5 m-2 shadow-inner shadow-xl"
+          onClick={() => ShowMore(pid)}
+        >
+          show more
+        </button>
       </div>
     </div>
   );
