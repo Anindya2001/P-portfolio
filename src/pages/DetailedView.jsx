@@ -6,19 +6,20 @@ export const DetailedView = () => {
 
   const projects = {
     1: {
-      name: "Project 1",
-      desc: "Description of Project 1",
+      name: "Pay Money App",
+      desc: "This is a Payment app which let users to do transaction with dummy currency",
       imageUrl:
-        "https://images.pexels.com/photos/7657593/pexels-photo-7657593.jpeg",
+        "https://res.cloudinary.com/dcjpwnsx2/image/upload/v1708926469/extras/fdkwnnqecw60kszadajf.png",
       gUrl: "https://github.com/Anindya2001/P-portfolio",
-      dUrl: "https://portfolio-pranav-0155.netlify.app/",
+      dUrl: "https://payapp-pranav.netlify.app/",
     },
     2: {
-      name: "Project 2",
-      desc: "Description of Project 2",
-      imageUrl: "https://example.com/project2.jpg",
+      name: "Weather checker",
+      desc: "This is a simple web application to check weather condition of any city",
+      imageUrl:
+        "https://res.cloudinary.com/dcjpwnsx2/image/upload/v1708927096/extras/klfsbrbouxo9lzcvf64x.png",
       gUrl: "https://github.com/Anindya2001/P-portfolio",
-      dUrl: "https://portfolio-pranav-0155.netlify.app/",
+      dUrl: "https://weather-checker-9vo0.onrender.com/",
     },
   };
 
@@ -29,14 +30,14 @@ export const DetailedView = () => {
   }
 
   return (
-    <div className="bg-gray-200 h-screen">
+    <div className="bg-gray-200 h-full">
       <Appbar />
-      <div className="container mx-auto mt-10">
-        <div className="max-w-xl mx-auto bg-white rounded-md shadow-md overflow-hidden">
+      <div className="container mx-auto mt-10 pb-10">
+        <div className="max-w-6xl mx-auto bg-white rounded-md shadow-md overflow-hidden">
           <img
             src={project.imageUrl}
             alt={project.name}
-            className="w-full h-64 object-cover"
+            className="w-full h-76 object-cover"
           />
           <div className="p-6">
             <h2 className="text-2xl font-semibold my-2">{project.name}</h2>

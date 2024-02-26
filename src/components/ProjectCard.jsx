@@ -7,7 +7,7 @@ export const PorjectCard = ({ iUrl, name, desc, pid, ShowMore }) => {
           alt="project image"
           className="h-56 w-full object-cover"
         />
-        <div className="text-2xl m-2">{name}</div>
+        <div className="text-2xl m-2 font-bold">{name}</div>
         <div className="text-lg m-2 flex-wrap">
           <p>{desc}</p>
         </div>
