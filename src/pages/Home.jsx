@@ -4,7 +4,7 @@ import { ContactMe } from "./Contact";
 
 export const Home = () => {
   return (
-    <div className="bg-gray-200 h-screen">
+    <div className="bg-gray-200 sm:h-screen h-full">
       <Appbar />
       <HomeBody />
       <ContactMe />

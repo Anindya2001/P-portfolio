@@ -8,11 +8,11 @@ export const Projects = () => {
     navigate(`/detailed-view/${pid}`);
   };
   return (
-    <div className="bg-gray-200 h-screen">
+    <div className="bg-gray-200 lg:h-screen h-full">
       <Appbar />
       <div className="flex justify-center item-center">
         <div>
-          <div className="flex">
+          <div className="md:flex">
             <PorjectCard
               pid={1}
               iUrl={

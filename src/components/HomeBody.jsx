@@ -10,7 +10,7 @@ export const HomeBody = () => {
       <hr className="w-48 h-1 mx-auto my-1 bg-gray-100 border-0 rounded md:my-3 dark:bg-gray-700" />
       <div className="p-8">
         <p className="text-center text-4xl underline mb-5">Skills </p>
-        <div className="flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 justify-center">
           <Skill label={"HTML"} />
           <Skill label={"CSS"} />
           <Skill label={"Javascript"} />
@@ -18,8 +18,6 @@ export const HomeBody = () => {
           <Skill label={"NodeJS"} />
           <Skill label={"ReactJS"} />
           <Skill label={"NextJS"} />
-        </div>
-        <div className="flex justify-center">
           <Skill label={"C/C++"} />
           <Skill label={"MongoDB"} />
           <Skill label={"PostgreSQL"} />

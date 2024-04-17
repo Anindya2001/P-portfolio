@@ -27,5 +27,6 @@ export default App;
 //1>> navigation in appbar.jsx  ==>> done
 //2>> resume viewing in resume.jsx ==>> done
 //3>> Real project props
-//4>> responsiveness
+//4>> responsiveness==>> done
 //5>> vite+react logo and title  ==>> done
+//6>> correct resume download
