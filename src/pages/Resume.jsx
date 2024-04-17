@@ -26,7 +26,7 @@ export const Resume = () => {
   };
 
   return (
-    <div className="bg-gray-200 h-full">
+    <div className="bg-gray-200 sm:h-full h-screen">
       <Appbar />
       <div className="flex justify-center item-center m-2 p-2">
         <img

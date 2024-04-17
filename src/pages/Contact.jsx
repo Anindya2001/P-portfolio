@@ -17,7 +17,7 @@ export const ContactMe = () => {
   return (
     <div className="flex justify-center item-center">
       <div>
-        <h1 className="text-4xl m-1">Contact Me: </h1>
+        <h1 className="md:text-4xl text-xl md:m-1 my-3">Contact Me: </h1>
       </div>
       <div className="flex text-3xl m-3">
         <FaEnvelope
